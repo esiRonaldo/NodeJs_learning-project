@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Logs and debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Env files
+.env
+.env.*
+
+# Coverage and build output
+coverage/
+dist/
+build/
+
+# OS/Editor files
+.DS_Store
+*.swp
+*.swo
