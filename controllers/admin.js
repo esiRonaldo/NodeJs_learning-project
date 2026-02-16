@@ -13,7 +13,7 @@ exports.postAddProduct = (req, res, next) => {
   const imageUrl = req.body.imageUrl;
   const price = req.body.price;
   const description = req.body.description;
-  // because we there is assossiation between User & Product, we can use this function
+  // because we there is associan between User & Product, we can use this function
   req.user.createProduct({ title: title, price: price, imageUrl: imageUrl, description: description })
     .then((result) => {
       console.log('created product')
